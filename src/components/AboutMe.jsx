@@ -32,7 +32,7 @@ export const AboutMe = () => {
                         member who can also work independently with the ability to adapt to
                         industry requirements and demands.
                     </p>
-                    <h3>Studios</h3>
+                    <h3>Education</h3>
                     <p>
                         <b>Bootcamp ITAcademy FE React</b> <br />
                         2021 Barcelona Activa ITAcademy

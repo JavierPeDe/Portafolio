@@ -34,8 +34,8 @@ export const ContactMe = () => {
             <Container>
                 <h2> Contact me </h2>
                 <form ref={form} onSubmit={sendEmail}>
-                    <h3> Send me a email</h3>
-                    <label>Name</label>
+                    <h3> Send me an email</h3>
+                    <label>Name</label>s
                     <input type="text" name="to_name" /> <br />
                     <label>Email</label>
                     <input type="email" name="email" />
@@ -52,7 +52,7 @@ export const ContactMe = () => {
                         </p>
                     ) : null}
                 </form>
-                <h3>Conctat with </h3>
+                <h3>Contact with </h3>
                 <div>
                     {' '}
                     <a
