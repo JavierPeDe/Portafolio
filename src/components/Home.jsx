@@ -1,5 +1,5 @@
-import { HomeContainer, ButtonCV, HomeImg, Link } from "./components.style"
-import perfilIMG from '../assets/img/Perfil.jpg'
+import { HomeContainer, ButtonCV, HomeImg, Link } from './components.style';
+import perfilIMG from '../assets/img/Perfil.jpg';
 export const Home = () => {
     return (
         <HomeContainer>
@@ -9,10 +9,7 @@ export const Home = () => {
                     <h2>
                         I'm<span> JAVIER PEREZ </span>
                     </h2>
-                    <span>
-                        {' '}
-                        Front End Software Developer{' '}
-                    </span>
+                    <span> Front End Software Developer </span>
                 </span>
 
                 <div>
@@ -23,8 +20,8 @@ export const Home = () => {
                 </div>
             </div>
             <HomeImg>
-                <img src={perfilIMG} alt='img perfil' />
+                <img src={perfilIMG} alt="img perfil" />
             </HomeImg>
         </HomeContainer>
-    )
-}
+    );
+};

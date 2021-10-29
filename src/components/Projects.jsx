@@ -19,27 +19,24 @@ export const Projects = () => {
             <ContainerSkills>
                 <Card>
                     <Capa>
-                        <h3>Covid-Evolution</h3>
-                        <p>
-                            Covid-19-Evolution-in-the-World is a covid-19 tracker which
-                            displays the infected, recovered and fatalities of the country
-                            selected by the user.{' '}
-                        </p>
+                        <h3>Chat-app</h3>
+                        <p>This is chat app created with ReactJS and Chat-Engine.</p>
                         <IconsStyle>
-                            <a href="https://u8pp1.csb.app/" rel="noreferrer" target="_blank">
-                                <IoIosOpen title="Open demo" />{' '}
+                            <a href="https://pevfo.csb.app/" rel="noreferrer" target="_blank">
+                                <IoIosOpen title="Open demo" />
                             </a>
                             <a
-                                href="https://github.com/JavierPeDe/Covid-19-Evolution-in-the-World"
+                                href="https://github.com/JavierPeDe/Chat-app"
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <VscGithub title="Open Git-hub code" />
+                                <VscGithub title="Open Git-hub code" />{' '}
                             </a>
                         </IconsStyle>
                     </Capa>
-                    <IMGP3 />
+                    <IMGP4 />
                 </Card>
+
                 <Card>
                     <Capa>
                         <h3>Web-Note CRUD</h3>
@@ -48,7 +45,13 @@ export const Projects = () => {
                             google's firebase.
                         </p>
                         <IconsStyle>
-                            <IoIosOpen title="Open demo" />
+                            <a
+                                href="https://note-crud-react.netlify.app/"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <IoIosOpen title="Open demo" />
+                            </a>
                             <a
                                 href="https://github.com/JavierPeDe/WebNote-React-CRUD"
                                 rel="noreferrer"
@@ -59,6 +62,26 @@ export const Projects = () => {
                         </IconsStyle>
                     </Capa>
                     <IMGP2 />
+                </Card>
+                <Card>
+                    <Capa>
+                        <h3>Covid-Evolution</h3>
+                        <p>
+                            Covid-19-Evolution-in-the-World is a covid-19 tracker which
+                            displays the infected, recovered and fatalities of the country
+                            selected by the user.{' '}
+                        </p>
+                        <IconsStyle>
+                            <a
+                                href="https://github.com/JavierPeDe/Covid-19-Evolution-in-the-World"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <VscGithub title="Open Git-hub code" />
+                            </a>
+                        </IconsStyle>
+                    </Capa>
+                    <IMGP3 />
                 </Card>
                 <Card>
                     <Capa>
@@ -78,30 +101,6 @@ export const Projects = () => {
                         </IconsStyle>
                     </Capa>
                     <IMGP1 />
-                </Card>
-                <Card>
-                    <Capa>
-                        <h3>Chat-app</h3>
-                        <p>
-                            This is chat app created with ReactJS and Chat-Engine.
-                        </p>
-                        <IconsStyle>
-                            <a
-                                href="https://pevfo.csb.app/"
-                                rel="noreferrer"
-                                target="_blank"
-                            >
-                                <IoIosOpen title="Open demo" /></a>
-                            <a
-                                href="https://github.com/JavierPeDe/Chat-app"
-                                rel="noreferrer"
-                                target="_blank"
-                            >
-                                <VscGithub title="Open Git-hub code" />{' '}
-                            </a>
-                        </IconsStyle>
-                    </Capa>
-                    <IMGP4 />
                 </Card>
             </ContainerSkills>
         </Container>
